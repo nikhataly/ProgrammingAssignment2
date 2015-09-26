@@ -23,7 +23,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 }
 
-
 ## The following function will return the value of the inverse. If 
 ## it has already been calculated and stored in the above function,
 ## it will return that value through getinverse variable in the list, then it will call 
