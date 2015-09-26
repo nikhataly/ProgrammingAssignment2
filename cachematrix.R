@@ -9,7 +9,7 @@
 ## If the inverse has already been calculated, it will store the value 
 ## of the inverse as well, and if not it, its value will be NULL.
 
-makeCacheVector <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
     x <<- y
